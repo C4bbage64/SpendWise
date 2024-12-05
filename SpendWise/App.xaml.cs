@@ -5,11 +5,14 @@
         public App()
         {
             InitializeComponent();
+
+            // Set AppShell as the main page
+            MainPage = new AppShell();
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
+        /*protected override Window CreateWindow(IActivationState? activationState)
         {
             return new Window(new AppShell());
-        }
+        }*/
     }
 }

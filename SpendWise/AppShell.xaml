@@ -6,7 +6,4 @@
        x:Class="SpendWise.AppShell">
 
     <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}" />
-    <ShellContent Title="Add Expense" ContentTemplate="{DataTemplate views:AddExpensePage}" />
-    <ShellContent Title="View Expenses" ContentTemplate="{DataTemplate views:ViewExpensesPage}" />
-
 </Shell>
