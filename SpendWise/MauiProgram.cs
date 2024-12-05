@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SpendWise.Services;
 
 namespace SpendWise
 {
@@ -15,9 +16,8 @@ namespace SpendWise
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            // Register services
+            builder.Services.AddSingleton<DatabaseService>();
 
             return builder.Build();
         }
