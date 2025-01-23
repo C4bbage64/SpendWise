@@ -1,5 +1,3 @@
-Here is a draft README for the `master` branch of your repository:
-
 # SpendWise
 
 A cross-platform Budget and Finance Tracker application using .NET MAUI.
